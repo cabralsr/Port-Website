@@ -22,24 +22,50 @@ body {
 main {
     min-width: 270px;
     max-width: 1920px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+main h1 {
+
 }
 
 .nvbar {
+    padding: 20px;
     max-height: 120px;
     min-width: 270px;
     max-width: 1920px;
     overflow: hidden;
+    position: fixed;
 }
 
 .nvbar a {
     float: left;
-    color: white;
     display: block;
+    padding: 14px 60px;
+
+    color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
 }
 
 .nvbar a:hover {
     color: black;
+}
+
+.chiriro {
+    left: 560px;
+    width: 540px;
+    height: 980px;
+}
+
+.rectangle {
+    display: block;
+    float: right;
+    max-height: 975px;
+    max-width: 1340px;
 }
